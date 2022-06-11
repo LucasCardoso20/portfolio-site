@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@1,300&display=swap');
+
+
+:root {
+  --font-base: 'Merriweather', serif;
+  --font-title: 'Bebas Neue', cursive;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #e22a1d;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+h2, .bold-text{
+  font-family: var(--font-title);
+}
+
+.button{
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  text-decoration: none;
+
+  font-weight: 500;
+  color: var(--white-color);
+  outline: none;
+  margin: 2rem 0 0 0;
+  font-family: var(--font-base);
+
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.container{
+  padding: 1rem 6rem;
+
+  @media screen and (max-width: 1200px){
+    padding: 1rem 3rem;
+  }
+
+  @media screen and (max-width: 800px){
+    padding: 1rem 2rem;
+  }
+  
+}
+
+.link{
+  color: var(--secondary-color);
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+
+span{
+  color: var(--secondary-color);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
