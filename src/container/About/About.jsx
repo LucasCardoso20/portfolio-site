@@ -63,7 +63,7 @@ const About = () => {
         ))}
       </div>
 
-      <a href='https://drive.google.com/file/d/19Q8X9olAA36nBn450Fe4-w1jko3Opfpl/view?usp=sharing' className='button' target="blank" rel="norefer">
+      <a href='https://drive.google.com/file/d/1hOQTAYp5D-bVa_8T_avqPowQONhcoedR/view?usp=sharing' className='button' target="blank" rel="norefer">
         Download cv
       </a>
     </>
